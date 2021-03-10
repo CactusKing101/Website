@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cities": "^2.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CactusKing101/Website.git"
+  },
+  "author": "CactusKing101",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CactusKing101/Website/issues"
+  },
+  "homepage": "https://github.com/CactusKing101/Website#readme"
+}
