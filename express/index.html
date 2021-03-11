@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <title>CactusKing101</title>
 <style>
   :root {
@@ -5,14 +7,46 @@
   }
   body {
     background-color: gainsboro;
-  }
-  p {
-    font-size: 20px;
     font-family: sans-serif;
+    text-align: center;
   }
   li {
     font-size: 18px;
-    font-family: sans-serif;
+  }
+  footer {
+    position: absolute;
+    bottom: 5px;
+    color: gray;
+    font-size: 10px;
+  }
+  a:hover {
+    color: red;
+  }
+  main {
+    background-color: silver;
+    border-color: darkgray;
+    border-width: 5px;
+    border-style: solid;
+  }
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+  .main-style {
+    margin: 10px;
+    font-size: 18px;
   }
   .small-image {
     width: 100px;
@@ -24,12 +58,6 @@
     border-style: solid;
     border-radius: 10%;
   }
-  .main-background {
-    background-color: silver;
-    border-color: darkgray;
-    border-width: 5px;
-    border-style: solid;
-  }
   .head {
     color: green;
     color: var(--color-scheme);
@@ -40,36 +68,50 @@
     background-color: lightcoral;
     padding: 5px 10px 10px 10px;
   }
-  .main-style {
-    margin: 10px
-  }
+  
 </style>
-<main class="main-background">
-  <h1 class="main-style head"><img class="small-image small-green-border" src="https://i.imgur.com/0PNUFWF.png" alt="CactusKing101's pfp">CactusKing101 / Thomas</h1>
+<main>
+  <h1 class="main-style head">
+    <img class="small-image small-green-border" src="https://i.imgur.com/0PNUFWF.png" alt="CactusKing101's pfp"><br>
+    CactusKing101 / Thomas
+    <hr>
+  </h1>
   <div class="main-style">
-    <p>Current Projects:</p>
-    <ul>
-      <li>Evallium Servers</li>
-      <li>My own webpage/blog thing</li>
-      <li>Discord bot developement</li>
-      <li>lasagna</li>
-    </ul>
+    <h2>About me:</h2>
+    <p>
+
+    </p>
   </div>
   <div class="main-style">
-    <footer>
-      <p>Ways to contact me</p>
-      <ul>
-        <li><a href="https://discord.gg/X4QKkfDPh8">Discord server</a></li>
-        <li>CactusKing101#2624</li>
-      </ul>
-    </footer>
+    <h2>Current Projects:</h2>
+    <p>
+      Evallium Servers<br>
+      My own webpage/blog thing<br>
+      Discord bot developement<br>
+      lasagna
+    <p>
+  </div>
+  <div class="main-style">
+    <h2>Ways to contact me</h2>
+    <p>
+      <a href="https://discord.gg/X4QKkfDPh8" target="__blank">Discord server</a><br>
+      CactusKing101#2624
+    <p>
   </div>
   <div class="form">
     <p>WIP it's not gonna work o.o</p>
     <p>Form to direct message me asap</p>
-    <form id="discord-message" action="https://www.google.com/search?q=why+did+you+use+this+button">
-      <input type="text" placeholder="Message" required>
+    <form id="discord-message" action="https://www.google.com/" target="__blank">
+      <input type="text" placeholder="Name" required><br>
+      <input type="text" placeholder="Discord Tag or Email" required><br>
+      <input type="text" placeholder="Message" required><br>
+      <p><b>YOU WILL BE IP BANNED FROM THIS WEBSITE IF YOU ABUSE THIS FEATURE</b></p>
       <button type="submit">Send</button>
     </form>
   </div>
 </main>
+
+<footer>
+  <p>Version 1.0.1-Alpha</p>
+</footer>
+</html>
