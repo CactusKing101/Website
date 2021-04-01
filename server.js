@@ -1,7 +1,7 @@
 const http = require('http');
 const express = require('express');
 const path = require('path');
-const config = require('./general/config.json');
+const config = require('./config.json');
 const app = express();
 app.use(express.json());
 app.use(express.static("express"));
